@@ -31,8 +31,10 @@ do { // Estrutura "do-while adicionada"
                 break; //case 1
 
             case 2:
-                
-                break;
+                media = (nota_1 + nota_2) / 2.0;
+                calculou_media = 1; // Marca que a média existe
+                printf("Media calculada com sucesso!\n");
+                break; //case 2
 
             case 3: 
                 
