@@ -37,8 +37,16 @@ do { // Estrutura "do-while adicionada"
                 break; //case 2
 
             case 3: 
-                
-                break;
+                if (calculou_media == 1) {
+                    if (media >= 6.0) {
+                        printf("Situacao: Aprovado! \n");
+                    } else {
+                        printf("Situacao: Reprovado! \n");
+                    }
+                } else {
+                    printf("Por favor, calcule a media (Opcao 2) primeiro!\n");
+                }
+                break; // case 3
 
             case 4: 
                 
