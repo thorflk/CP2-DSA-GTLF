@@ -23,8 +23,12 @@ do { // Estrutura "do-while adicionada"
         
          switch (opcao) {
             case 1:
-                
-                break; 
+                printf("Digite a nota 1: ");
+                scanf("%f", &nota_1);
+                printf("Digite a nota 2: ");
+                scanf("%f", &nota_2);
+                printf("Notas salvas com sucesso!\n");
+                break; //case 1
 
             case 2:
                 
