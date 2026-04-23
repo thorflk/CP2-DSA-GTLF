@@ -11,7 +11,7 @@ int main() {
 
     media = (nota1 + nota2) / 2; // adicionado parenteses
 
-    if (media = 6) {
+    if (media >= 6) { //adicionado >= após "média"
         printf("Aluno aprovado\n");
     } else {
         printf("Aluno reprovado\n");
