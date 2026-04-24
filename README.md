@@ -1,16 +1,21 @@
-# Checkpoint - Sistema Acadêmico em C
-
-## Modalidade
-Grupo de 5 integrantes
-
-## Regras
-- Trabalhar no mesmo repositório
-- Mínimo de 3 commits por integrante
-- Utilizar if-else, switch-case, laço de repetição e funções
-- Corrigir o arquivo com erros
-- Implementar menu no terminal
-- Implementar cálculo de média, situação e derivada simples
-
-## Estrutura
-- `src/codigo_com_erros.c` → arquivo com erros para correção
-- `src/main.c` → arquivo principal do sistema
+# 1CCR-CP2-DSA
+ 
+<div align="center">
+ 
+---
+ 
+##  Integrantes do Grupo
+ 
+| Nome | RM |
+|------|----|
+|  Gabriel Botelho Romão | `RM 570589` |
+|  Thor Ferreira Camargo | `RM 569543` |
+|  Fernando Hideki Rosa Oda | `RM 571408` |
+|  Léo Moreno Sambo | `RM 569556` |
+|  David dos Reis Cardoso | `RM 568938` |
+ 
+---
+ 
+<div align="center">
+  <sub>FIAP — Turma 1CCR · Checkpoint 2  ·  DSA </sub>
+</div>
