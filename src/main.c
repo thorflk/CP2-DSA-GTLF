@@ -49,7 +49,15 @@ do { // Estrutura "do-while adicionada"
                 break; // case 3
 
             case 4: 
+                 if (calculou_media == 1) {
+                    printf("\n--- RESULTADOS DO ALUNO ---\n");
+                    printf("Nota 1: %.2f\n", nota_1);
+                    printf("Nota 2: %.2f\n", nota_2);
+                    printf("Media Final: %.2f\n", media);
                 
+                } else {
+                    printf("Nenhum resultado para exibir. Calcule a media primeiro!\n");
+                }
                 break;
 
             case 5: 
