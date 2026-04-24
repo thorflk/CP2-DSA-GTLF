@@ -87,7 +87,7 @@ do { // Estrutura "do-while adicionada"
                 break;
 
             default: 
-            
+                printf("Opcao invalida! Tente novamente.\n");
                 break;
     
 
