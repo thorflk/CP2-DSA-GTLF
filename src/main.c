@@ -54,7 +54,12 @@ do { // Estrutura "do-while adicionada"
                     printf("Nota 1: %.2f\n", nota_1);
                     printf("Nota 2: %.2f\n", nota_2);
                     printf("Media Final: %.2f\n", media);
-                
+                    if (media >= 6.0) {
+                        printf("Status: Aprovado\n");
+                    } else {
+                        printf("Status: Reprovado\n");
+                    }
+                    printf("---------------------------\n");
                 } else {
                     printf("Nenhum resultado para exibir. Calcule a media primeiro!\n");
                 }
