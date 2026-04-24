@@ -66,6 +66,14 @@ do { // Estrutura "do-while adicionada"
                 break;
 
             case 5: 
+                printf("\n--- Calculo de Derivada ---\n");
+                printf("Funcao: f(x) = ax^2 + bx + c\n");
+                printf("Digite o valor de a: ");
+                scanf("%d", &a);
+                printf("Digite o valor de b: ");
+                scanf("%d", &b);
+                printf("Digite o valor de c: ");
+                scanf("%d", &c);
                 
                 break;
 
