@@ -75,6 +75,11 @@ do { // Estrutura "do-while adicionada"
                 printf("Digite o valor de c: ");
                 scanf("%d", &c);
                 
+                if (b >= 0) {
+                    printf("\nSaida:\nf'(x) = %dx + %d\n", 2 * a, b);
+                } else {
+                    printf("\nSaida:\nf'(x) = %dx - %d\n", 2 * a, b * -1);
+                }
                 break;
 
             case 6: 
