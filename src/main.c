@@ -83,11 +83,11 @@ do { // Estrutura "do-while adicionada"
                 break;
 
             case 6: 
-                
+                printf("Encerrando o sistema... Ate logo!\n");
                 break;
 
             default: 
-                
+            
                 break;
     
 
