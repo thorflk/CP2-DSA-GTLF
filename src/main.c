@@ -5,8 +5,9 @@ int main() {
     float nota_1 , nota_2 , media;
     int a, b, c;
     
-     // Variável para controlar se a média já foi calculada
+     // Variável para controlar se a média já foi calculada e notas inseridas
     int calculou_media = 0; 
+    int inseriu_notas = 0 ;
 
 do { // Estrutura "do-while adicionada"
         printf("\n==============================\n");
@@ -27,13 +28,18 @@ do { // Estrutura "do-while adicionada"
                 scanf("%f", &nota_1);
                 printf("Digite a nota 2: ");
                 scanf("%f", &nota_2);
+                inseriu_notas = 1;
                 printf("Notas salvas com sucesso!\n");
                 break; //case 1
 
             case 2:
-                media = (nota_1 + nota_2) / 2.0;
-                calculou_media = 1; // Marca que a média existe
-                printf("Media calculada com sucesso!\n");
+                if (inseriu_notas == 1){
+                    media = (nota_1 + nota_2) / 2.0;
+                    calculou_media = 1; // Marca que a média existe
+                    printf("Media calculada com sucesso!\n");
+                } else {
+                    printf ("Digite suas notas primeiro! \n");
+                }
                 break; //case 2
 
             case 3: 
